@@ -2,6 +2,7 @@
   "name": "stream-service",
   "version": "0.0.0",
   "description": "Research project of streaming and transcoding the video",
+  "workspaces": ["frontend", "backend"],
   "scripts": {
     "semver": "npx @changesets/cli add"
   },
