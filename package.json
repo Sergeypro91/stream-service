@@ -1,0 +1,13 @@
+{
+  "name": "stream-service",
+  "version": "0.0.0",
+  "description": "Research project of streaming and transcoding the video",
+  "scripts": {
+    "semver": "npx @changesets/cli add"
+  },
+  "author": "S3rGr4y",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.12"
+  }
+}
