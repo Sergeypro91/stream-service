@@ -5,7 +5,9 @@
   "workspaces": ["frontend", "backend"],
   "scripts": {
     "semver-add": "npx @changesets/cli add",
-    "semver-up": "npx @changesets/cli version"
+    "semver-up": "npx @changesets/cli version",
+    "semver-publish": "npx @changesets/cli publish --otp={token}",
+    "semver-taging": "git push --follow-tags"
   },
   "author": "S3rGr4y",
   "license": "ISC",
