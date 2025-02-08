@@ -4,7 +4,8 @@
   "description": "Research project of streaming and transcoding the video",
   "workspaces": ["frontend", "backend"],
   "scripts": {
-    "semver": "npx @changesets/cli add"
+    "semver-add": "npx @changesets/cli add",
+    "semver-up": "npx @changesets/cli version"
   },
   "author": "S3rGr4y",
   "license": "ISC",
